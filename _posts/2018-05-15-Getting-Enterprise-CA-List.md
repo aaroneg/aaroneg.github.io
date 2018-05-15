@@ -1,6 +1,7 @@
 ---
 title: "Tracking Down Enterprise CAs using powershell"
 categories: pki enterprise certificate authority powershell
+author: aaroneg
 ---
 # Summary
 How to find a list of certificate authorities in your domain
@@ -25,7 +26,7 @@ Now I know that it's possible to find the information I want, I have an idea of 
 
 You'll need the AD RSAT tools installed to use this script. 
 
-```
+```powershell
 # Read the current domain ( https://msdn.microsoft.com/en-us/library/system.directoryservices.activedirectory.domain(v=vs.110).aspx )
 $CurrentDomainRootDN=[System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().GetDirectoryEntry().distinguishedName
 # Construct the EnrollmentDN from the domain root DN
