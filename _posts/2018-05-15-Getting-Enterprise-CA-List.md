@@ -1,7 +1,8 @@
 ---
 title: "Tracking Down Enterprise CAs using powershell"
-categories: pki enterprise certificate authority powershell
+categories: pki
 author: aaroneg
+tags: enterprise certificate authority powershell
 ---
 # Summary
 How to find a list of certificate authorities in your domain
