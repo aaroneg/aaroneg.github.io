@@ -24,7 +24,9 @@ Since an Enterprise CA sounds like a service to me, I expanded the "CN=Services"
 
 Now I know that it's possible to find the information I want, I have an idea of how to get this information in powershell. Because this script is meant to be generally available, I'll have powershell do some of the leg work of figuring out information about the environment, instead of using variables at the top of the file or prompting for information.
 
+<aside class="notice">
 You'll need the AD RSAT tools installed to use this script. 
+</aside>
 
 ```powershell
 # Read the current domain ( https://msdn.microsoft.com/en-us/library/system.directoryservices.activedirectory.domain(v=vs.110).aspx )
