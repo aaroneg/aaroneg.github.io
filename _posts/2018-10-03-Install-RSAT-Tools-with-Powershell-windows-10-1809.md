@@ -17,4 +17,4 @@ Get-WindowsCapability -Online | ? Name -like 'RSAT*'|Where {$_.State -eq 'NotPre
 Depending on your organization's settings, you may run into errors when your computer tries to download from a windows update server and can't. 
 
 See this article for a workaround:
-https://vniklas.djungeln.se/2017/12/20/install-ssh-client-as-a-optional-feature-on-windows-10-failed/
+[Install SSH client as a optional feature on Windows 10 failed](https://vniklas.djungeln.se/2017/12/20/install-ssh-client-as-a-optional-feature-on-windows-10-failed/)
