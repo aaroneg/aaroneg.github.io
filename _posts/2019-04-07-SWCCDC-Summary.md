@@ -150,6 +150,10 @@ This exchange install was all-roles-on-one-server and relatively simple. Simple 
 
 We also sometimes offer the in-game service of 'restoring from backup' the AD controller since it's so central to all services that when (not if) Red team takes it out, you're not out of the game permanently. With exchange we had to offer both, since Exchange stores it's configuration in AD. This didn't go well since the rebuild had to happen in the team room live during the competition because the firewall was between the network segments. Yikes. 
 
+## Create your own lab
+I have a sample set of scripts [here](https://github.com/aaroneg/PS-CreateADLabs) if you'd like to see what it takes to automate an AD build.
+
+
 ## Overall
 This has to be my favorite year of the competition so far. I got to work closely with some great friends, and made new ones. I'm intensely proud of every team that competed - they all put a lot of heart and a lot of work into it, and it showed. Especially with the amount of wrinkles we built in and the tenacity of the Red team. 
 
